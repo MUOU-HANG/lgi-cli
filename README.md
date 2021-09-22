@@ -9,3 +9,5 @@ npm install lgi-cli -g
 ```javascript
 lg init <projectName>
 ```
+
+# update CLI

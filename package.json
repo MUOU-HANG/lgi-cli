@@ -1,13 +1,13 @@
 {
   "name": "lgi-cli",
-  "version": "1.0.4",
+  "version": "1.0.2",
   "description": "a demo cli",
   "main": "./bin/index.js",
   "type": "commonjs",
   "bin": {
     "lg": "./bin/index.js"
   },
-  "repository": "",
+  "repository": "https://registry.npmjs.org/",
   "author": "zhanhang",
   "license": "MIT",
   "private": false,
@@ -20,6 +20,7 @@
     "handlebars": "^4.7.7",
     "inquirer": "^8.1.5",
     "ora": "^6.0.1",
+    "pkg-updater": "^1.0.4",
     "typescript": "^4.4.3",
     "update-notifier": "^5.1.0"
   }

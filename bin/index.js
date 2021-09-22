@@ -39,17 +39,17 @@ commander
 
 // update
 commander
-.command("upgrade")
-.description("Check the lg-cli Version")
-.action(() => {
-  update()
-})
+  .command("upgrade")
+  .description("Check the CLI Version")
+  .action(() => {
+    update()
+  })
 // test
 commander
-.command("test <projectName>")
-.description("build your project")
-.action((projectName,value) => {
-  download(projectName)
-})
+  .command("test <projectName>")
+  .description("build your project")
+  .action((projectName,value) => {
+    download(projectName)
+  })
 commander.parse(process.argv)
 
